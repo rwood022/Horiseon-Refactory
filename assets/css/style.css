@@ -20,8 +20,7 @@ h1 {
     font-size: 48px;
 }
 
-
-section {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -47,6 +46,7 @@ p {
     font-size: 16px;
 }
 
+/* Header image of Digital Marketing Meeting */
 .hero {
     height: 800px;
     width: 100%;
@@ -56,11 +56,13 @@ p {
     background-position: center;
 }
 
+/* Images for Search Engine Optimization and Social Media Marketing positioned to the left of text*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Image for Online Reputation Management is positioned to the right of text*/
 .float-right {
     float: right;
     margin-left: 25px;
@@ -83,55 +85,26 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Margin and Color text for Lead Generation, Brand Awareness, and Cost Management column*/
+.benefit-brand, .benefit-cost, .benefit-lead{
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #ffffff;    
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/*Properties for Images used under titles: Lead Generation, Brand Awareness, and Cost Management*/
+.benefit-brand img, .benefit-cost img, .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* Proterties for Search Engine Optimization, Social Media Marketing, and Online Reputation Management*/
+.search-engine-optimization, .social-media-marketing, .online-reputation-management{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -140,47 +113,13 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* Height property for SEO, ORM, and SMM images*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+/*Margin and font size for Headers of Search Engine Optimization, Online Reputation Management, and Social Media Marketing.*/
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
