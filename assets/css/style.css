@@ -47,7 +47,7 @@ p {
 }
 
 /* Header image of Digital Marketing Meeting */
-.hero {
+.cover-photo {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -68,7 +68,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
+/* Main content section */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -86,7 +87,7 @@ p {
 }
 
 /* Margin and Color text for Lead Generation, Brand Awareness, and Cost Management column*/
-.benefit-brand, .benefit-cost, .benefit-lead{
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;    
 }
@@ -97,14 +98,14 @@ h3 {
 }
 
 /*Properties for Images used under titles: Lead Generation, Brand Awareness, and Cost Management*/
-.benefit-brand img, .benefit-cost img, .benefit-lead img {
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /* Proterties for Search Engine Optimization, Social Media Marketing, and Online Reputation Management*/
-.search-engine-optimization, .social-media-marketing, .online-reputation-management{
+.services, .social-media-marketing, .online-reputation-management{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -114,7 +115,7 @@ h3 {
 }
 
 /* Height property for SEO, ORM, and SMM images*/
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+.services img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
